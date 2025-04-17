@@ -1,27 +1,45 @@
-# FIFA 21 Data Cleaning & Transformation Project
+# ⚽ FIFA 21 Data Cleaning & Transformation Project
 
 ## 📌 Overview
-This project involves data cleaning and transformation of the FIFA 21 players dataset using Python and Pandas. The goal was to prepare the raw data for future analysis and visualization by handling missing values, converting data types, and engineering useful features.
 
-## 📊 Dataset
-- Source: [Kaggle - FIFA 21 complete player dataset](https://www.kaggle.com/stefanoleone992/fifa-21-complete-player-dataset)
-- File: `fifa21 raw data v2.csv`
+This project focuses on cleaning and transforming the **FIFA 21 Players Dataset** to prepare it for data analysis and visualization. Using **Python and Pandas**, the raw data was refined by handling missing values, converting complex data types, and engineering new features.
+
+The cleaned dataset can be used for deep insights into player performance, transfer values, wage patterns, and more!
+
+---
+
+## 📂 Dataset
+
+- **Source:** [Kaggle - FIFA 21 complete player dataset](https://www.kaggle.com/stefanoleone992/fifa-21-complete-player-dataset)
+- **File used:** `fifa21 raw data v2.csv`
+- **Total Players:** 18,979
+- **Total Features:** 77
+
+---
 
 ## 🛠️ Tasks Performed
-- Handled missing values
-- Converted monetary strings to numeric values
-- Split player positions and traits
-- Extracted useful features (e.g., age, height in cm)
-- Saved the cleaned dataset as `fifa21_cleaned.csv`
 
-## 🧰 Technologies Used
-- Python
+- 🧹 Removed or imputed missing values
+- 🔁 Converted currency strings (e.g., €100K) to numeric
+- 🎯 Split compound columns (e.g., player positions)
+- 📏 Converted height and weight into standard units
+- 🧠 Created new meaningful features for analysis
+- 💾 Saved cleaned data as `fifa21_cleaned.csv`
+
+---
+
+## 📊 Technologies Used
+
+- Python 3.x
 - Pandas
+- NumPy
 - Google Colab
-- Git & GitHub
 
-## 📁 How to Use
-1. Clone this repository
-2. Install dependencies:
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/sameerdossaryyy/fifa-21.git
+   cd fifa-21
